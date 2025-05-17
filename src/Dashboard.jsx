@@ -14,14 +14,14 @@ function Dashboard() {
       <div className="feature-cards-row">
         <div className="feature-card clickable" onClick={() => navigate('/mood-calendar')} tabIndex={0} role="button">
           <div className="feature-img">
-            <img src="public/m1.jpg" alt="" />
+            <img src="/m1.jpg" alt="" />
           </div>
           <h2><span role="img" aria-label="mood">📅</span> Mood Calendar</h2>
           <p>Track your daily moods and visualize patterns on a calendar.</p>
         </div>
         <div className="feature-card clickable" onClick={() => navigate('/journal')} tabIndex={0} role="button">
           <div className="feature-img">
-            <img src="public/m2.png" alt="" />
+            <img src="/m2.png" alt="" />
             </div>
           <h2><span role="img" aria-label="journal">📝</span> Weekly Journal</h2>
           <p>Reflect on your week, organize thoughts with tags, and track mood trends.</p>
@@ -30,7 +30,7 @@ function Dashboard() {
       <div className="feature-cards-row">
         <div className="feature-card">
           <div className="feature-img">
-            <img src="public/m3.jpeg" alt="" />
+            <img src="/m3.jpeg" alt="" />
           </div>
           <h2><span role="img" aria-label="meal">🍴</span> Daily Meal Log</h2>
           <p>Log your meals and calories, and track your daily nutritional intake.</p>
@@ -38,7 +38,7 @@ function Dashboard() {
         </div>
         <div className="feature-card">
           <div className="feature-img">
-            <img src="public/m4.jpeg" alt="" />
+            <img src="/m4.jpeg" alt="" />
           </div>
           <h2><span role="img" aria-label="breathing">🌬️</span> Breathing Exercise</h2>
           <p>Find calm with guided breathing animations to help you relax and focus.</p>
